@@ -129,8 +129,28 @@ body {
     .gif_container {
         margin-top: 20px;
     }
+}
+
+@media only screen and (max-width: 500px) {
+    h1 {
+        font-size: 18px;
+    }
+
+    .ask {
+        font-size: 20px;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 18px;
+        width: 60%;
+    }
+
+    .gif_container {
+        margin-top: 20px;
+    }
 
     
 }
+
 
 
