@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+    width: 100vw;
+    overflow: hidden;
+}
+
+#noButton {
+    position: absolute;
+    left: 60%;
+    top: 80%;
+    transform: translate(-50%, -50%);
+    transition: 0.5s;
+    background-color: #FFE5E7;
+    color: #DA1E28;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 24px;
+    border: .5px solid #fff;
+}
+
+#yesButton {
+    position: absolute;
+    right: 60%;
+    top: 80%;
+    transform: translate(50%, -50%);
+    background-color: #F1FFE5;
+    color: #2AD000;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 24px;
+    border: .5px solid #fff;
+}
+
+.ask {
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: #ffb6c1;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+}
+
+
+.gif_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 90px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 22px;
+    }
+
+    .ask {
+        font-size: 20px;
+        margin-top: 20px;
+        margin-left: 5px;
+    }
+
+    .gif_container {
+        margin-top: 20px;
+    }
+
+    #urvishPatel {
+        font-size: 12px;
+    }
+}
+
